@@ -1,0 +1,213 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+NKo+Unjoined:wght@600&family=Poppins:wght@500&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+.navigation{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+    color: aliceblue;
+    z-index: 10;
+    
+}
+.navigation a:not(:last-child){
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    font-size: 20px;
+    color: blueviolet;
+}
+.navigation a:hover:not(:last-child){
+    color: rgb(0, 255, 51);
+
+}
+.navigation a:last-child{
+    height: 20px;
+    width: fit-content;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: coral;
+    border-radius: 5px;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navigation h3{
+    text-align: right;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    /* margin-left: 100px; */
+    
+}
+.home{
+    height: 100vb;
+    width: 100%;
+    background-image: linear-gradient(yellow,red);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; 
+}
+.home h2 span{
+    /* letter-spacing: 2px; */
+    background-image: linear-gradient(rgb(53, 230, 221),black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position-y: 10px;
+    background-size: cover;
+    font-size: 50px;
+
+}
+.home h3{
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+}
+.about{
+    height: 100vb;
+    width: 100%;
+    background-image: linear-gradient(to bottom,red,orange);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.about .box3 h2{
+    height: 40px;
+    width: 150px;
+    color: white;
+    font-size: 30px;
+    background-color: transparent;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    text-align: left;
+    font-family: 'Noto Sans NKo Unjoined',
+    
+}
+.about .box1 img{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    
+}
+.about .box2{
+    height: 300px;
+    width: 40%;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.skill{
+    height: 100vb;
+    width: 100%;
+    padding: 5px 5px;
+    background-image: linear-gradient(to bottom,orange,rgb(217, 255, 0));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.skill .sbox h2{
+    height: 40px;
+    width: 150px;
+    color: white;
+    font-size: 30px;
+    background-color: transparent;
+    position: absolute;
+    top: 1200px;
+    left: 50px;
+    text-align: left;
+    font-family: 'Noto Sans NKo Unjoined',
+    
+}
+.skill img{
+    height: 200px;
+    width: 300px;
+    border-radius: 30px;
+}
+.skill img:hover{
+    border-radius: 0;
+    transform: scale(1.2);
+    transition: all;
+}
+.project{
+    height: 100vb;
+    width: 100%;
+    background-image: linear-gradient(to bottom,rgb(217, 255, 0),rgb(157, 255, 0));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.project .pbox h2 {
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-size: 30px;
+    background-color: transparent;
+    position: absolute;
+    top: 1800px;
+    left: 50px;
+    text-align: left;
+    font-family: 'Noto Sans NKo Unjoined',
+    
+}
+.project img{
+    height: 150px;
+    width: 200px;
+    border-radius: 0;
+}
+.project img:hover{
+    border-radius: 30px;
+    transform: scale(1.2);
+    transition: all;
+}
+.contact {
+    height: 100vb;
+    width: 100%;
+    background-image: linear-gradient(to bottom,rgb(157, 255, 0),rgb(0, 255, 174));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contact .cbox h2 {
+    height: 40px;
+    width: 250px;
+    color: white;
+    font-size: 30px;
+    background-color: transparent;
+    position: absolute;
+    top: 2425px;
+    left: 50px;
+    text-align: left;
+    font-family: 'Noto Sans NKo Unjoined',
+    
+}
+.contact a img{
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
